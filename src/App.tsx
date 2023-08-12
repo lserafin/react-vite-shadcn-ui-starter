@@ -1,6 +1,7 @@
 import CountBtn from '@/components/CountBtn';
 import ReactSVG from '@/assets/react.svg';
 import { Badge } from '@/components/ui/badge';
+import { SwitchDemo } from './components/SwitchDemo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Badge variant="outline">shadcn/ui</Badge>
         </a>
         <CountBtn />
+        <SwitchDemo />
       </div>
     </main>
   );
